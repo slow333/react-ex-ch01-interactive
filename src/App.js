@@ -1,11 +1,11 @@
-import {useState} from "react";
 import Steps from "./step/Steps";
+import DayCount from "./step/DayCount";
 
 function App() {
   return (
-       <>
-          <Steps/>
-       </>
+    <>
+      <DayCount />
+    </>
   );
 }
 
